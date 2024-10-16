@@ -1,74 +1,95 @@
-Student Management System
-Overview
-The Student Management System is a desktop application designed to manage student information efficiently. It provides a user-friendly interface to perform CRUD operations (Create, Read, Update, and Delete) on student data. The system displays students' details such as names, student numbers, courses, and marks in a tabular format.
-![image](https://github.com/user-attachments/assets/2508cc60-9a37-4dfb-9b0a-9faa706826bd)
+# Student Management System
+![image](https://github.com/user-attachments/assets/76b62fc2-1686-435c-809d-cfde471b8584)
 
-Features
-Add Student: Add a new student record with their Name, Student Number, Course, and Marks.
-Update Marks: Update the marks of an existing student.
-Delete Student: Remove a student record from the system.
-Search Student: Search for students by their details.
-Exit System: Close the application gracefully.
-Interface Overview
-Form Fields:
+## Table of Contents
+*Introduction*
+*Features*
+*System Requirements*
+*Installation*
+*Usage*
+*Interface Description*
+*Future Enhancements*
+*Author*
+*License*
+## Introduction
+The Student Management System is a desktop-based Java application designed to manage student records efficiently. It allows the user to add, update, delete, search, and display student information in a structured tabular format. The application aims to simplify student data management for academic administrators and tutors.
 
-Name: Input field for student name.
-Student No.: Input field for the student number.
-Course: Input field for the course the student is enrolled in.
-Marks: Input field for the student's marks.
-Action Buttons:
-
-Add: Adds a new student record to the system.
-Update Marks: Updates the marks for a selected student.
-Delete: Removes a student record.
-Search: Searches for a student based on the given criteria.
-Exit: Exits the application.
-Table:
-
-Displays the student data with the following columns:
-ID: Unique identifier for each student.
-Student Name: Name of the student.
-Student Number: Student’s number.
-Course: The course in which the student is enrolled.
-Marks: Student's marks.
-Getting Started
-Prerequisites
-Java Development Kit (JDK) installed on your machine.
-IDE such as IntelliJ IDEA, Eclipse, or NetBeans (optional but recommended).
-Setup
-Clone the repository or download the source files.
-Open the project in your preferred IDE or run it via command line using:
+## Features
+Add Student Record: Insert a new student’s information, including name, student number, course, and marks.
+Update Marks: Modify the marks of an existing student.
+Delete Student Record: Remove a student’s information from the system.
+Search Student Records: Search for students by name, student number, or course.
+View Student List: Display all student records in a table format for easy viewing.
+Exit Application: Safely close the program.
+System Requirements
+Operating System: Windows, Linux, or macOS
+Java Development Kit (JDK): Version 8 or above
+IDE (Optional): IntelliJ IDEA, Eclipse, or NetBeans
+RAM: Minimum 2GB
+Storage: At least 50MB of free space
+Installation
+Download the source code or clone the repository using the following command:
+bash
+Copy code
+git clone <repository_url>
+Open the project in your preferred IDE or compile it using the terminal.
+Compile and Run using the following commands:
 bash
 Copy code
 javac Main.java
 java Main
-Make sure all required libraries (if any) are added to the project build path.
+Ensure that all necessary dependencies are properly configured (if any).
 Usage
-Add a Student:
+Adding a New Student:
 
-Fill in the form with the student's details.
-Click Add to insert the new student into the system.
-Update Marks:
+Enter the student’s name, student number, course, and marks in the input fields.
+Click the Add button to save the record.
+Updating Marks:
 
 Select the student from the table.
-Modify the marks field and click Update Marks.
-Delete a Student:
+Modify the marks in the input field.
+Click the Update Marks button to apply the changes.
+Deleting a Student Record:
 
-Select the student record from the table.
-Click Delete to remove the student.
-Search for a Student:
+Select the student from the table.
+Click the Delete button to remove the record.
+Searching for a Student:
 
-Enter the search criteria in the appropriate fields.
-Click Search to filter results.
-Exit the Application:
+Enter the search criteria in the relevant field.
+Click Search to filter the records based on the entered data.
+Exiting the Application:
 
-Click Exit to close the application.
+Click the Exit button to close the application safely.
+Interface Description
+The graphical user interface (GUI) is divided into two sections:
+
+## Input Panel:
+
+Name: Text field for the student’s name.
+Student No.: Text field for the student number.
+Course: Text field for the course.
+Marks: Text field for the student’s marks.
+Action Buttons:
+Add: Adds a new student record.
+Update Marks: Updates the marks for a selected student.
+Delete: Deletes the selected student’s record.
+Search: Searches for students based on the entered criteria.
+Exit: Closes the application.
+Table View:
+
+## Displays all student records with the following columns:
+ID: Unique identifier for each student.
+Student Name: Name of the student.
+Student Number: Student’s registration number.
+Course: Course the student is enrolled in.
+Marks: Current marks of the student.
 Future Enhancements
-Database Integration: Store student records in an external database.
-Export Functionality: Export student data to Excel or CSV files.
-Authentication: Add user authentication for secure access.
+Database Integration: Store student records in an external database (e.g., MySQL).
+Export Feature: Enable exporting student data to Excel or CSV files.
+Authentication System: Add user authentication for secure access.
+Report Generation: Generate reports for student performance automatically.
 Author
-This project was developed by My team and I. Feel free to reach out for any feedback or suggestions.
+This project was developed by My group teams as part of a student management solution. Please feel free to reach out for suggestions or feedback.
 
 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
